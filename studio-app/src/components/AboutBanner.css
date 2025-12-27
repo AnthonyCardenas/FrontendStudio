@@ -1,0 +1,56 @@
+
+.about-banner {
+    margin:0;
+    padding: 30px;
+    width: fit-content;
+
+    /* border-style: solid; */
+}
+
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  gap: 30px;
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
+@media (min-width: 700px) {
+  .about-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.about-info {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.about-photo {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  align-content: center;
+  /* align-items: center; */
+  justify-items: center;
+  /* justify-content: center; */
+
+  text-align: center;
+   /* border-style: solid; */
+}
+
+.profile-photo {
+  margin: 0;
+  padding: 0;
+
+  /* width: 100%; */
+  height: auto;
+  max-height: 300px;
+
+ 
+}

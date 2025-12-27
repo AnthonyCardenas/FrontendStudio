@@ -1,0 +1,67 @@
+/* Featured Banner Section */
+
+.featured-banner {
+  width: 100%;
+  /* padding: 40px 20px; */
+  padding: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #f8f6f1;
+}
+
+.featured-info {
+  text-align: center;
+}
+
+.featured-info h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.featured-info p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.grid-item {
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Image */
+.featured-image {
+  width: 100%;
+  /* width: 30px; */
+  height: 260px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Hover zoom effect */
+.featured-image:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,17 @@
+/* ----------------------------------------------------------- */
+/* StarRating.css (Updated for <img> stars) */
+/* ----------------------------------------------------------- */
+
+
+.star-rating {
+display: flex;
+gap: 4px;
+align-items: center;
+}
+
+
+.star-icon {
+width: 24px;
+height: 24px;
+object-fit: contain;
+}

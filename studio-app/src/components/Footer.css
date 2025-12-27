@@ -1,0 +1,150 @@
+.footer {
+  background-color: #faf6ee;
+  color: #550c1a;
+
+  padding: 10;
+  margin: 10;
+  /* padding: 10px  20px; */
+  /* padding-top: 0;
+  padding-bottom: 0; */
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  /* justify-content: space-between; */
+  /* font-size: 10px; */
+
+  /* min-width: 100%; */
+}
+
+.footer-title {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #550c1a;
+  font-size: 20px;
+  text-align: left;
+
+  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  margin: 0;
+  /* margin-bottom: 5px; */
+}
+
+.social-section {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social-section h2 {
+  font-size: 14;
+  padding-right: 10px;
+}
+
+#footer-icons {
+  /* Style */
+  color: #550c1a;
+  font-size: 20px;
+  text-align: left;
+
+  /* Spacing */
+  padding: 0;
+  margin: 0;
+
+  /* Grid */
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+
+  /* justify-content: space-evenly; */
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.footer-link {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  height: auto;
+}
+
+a.footer-link {
+  color: #550c1a;
+  text-decoration: none;
+}
+
+a:hover.footer-link {
+  color: #ffce64;
+  text-decoration: none;
+}
+
+.content-link {
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+  width: auto;
+}
+
+.social-icon {
+  /* Style */
+  color: #550c1a;
+  font-size: 20px;
+  text-align: left;
+  filter: brightness(0);
+
+  /* Spacing */
+  height: 45px;
+  width: 80px;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+  /* margin-right: 10px; */
+  /* margin-bottom: 5px; */
+
+  /* align-content: center;
+  justify-content: center; */
+}
+
+.social-icon:hover {
+  transform: scale(1.05);
+}
+
+.social-icon-1 {
+  /* align-content: center;
+  justify-content: center; */
+
+  /* Style */
+  color: #d2daad;
+  font-size: 20px;
+  text-align: left;
+  filter: brightness(0);
+
+  /* Spacing */
+  height: 35px;
+  width: 80px;
+  padding: 0;
+  /* padding-left: 10px; */
+  padding-right: 10px;
+  margin: 0;
+  /* margin-right: 10px; */
+  /* margin-bottom: 5px; */
+}
+
+.social-icon-1:hover {
+  transform: scale(1.05);
+}
