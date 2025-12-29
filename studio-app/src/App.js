@@ -28,7 +28,7 @@ function App() {
         <Route path="/PricingPage" element={<PricingPage />} />
         <Route path="/AboutPage" element={<AboutPage />} />
 
-        <Route path="/WeddingPage" element={<WeddingPage />} />
+        {/* <Route path="/WeddingPage" element={<WeddingPage />} /> */}
         <Route path="/NewbornPage" element={<NewbornPage />} />
         <Route path="/FamilyPage" element={<FamilyPage />} />
         <Route path="/PortraitPage" element={<PortraitPage />} />

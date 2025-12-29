@@ -1,20 +1,13 @@
 // import React from "react";
 
-// import Family from "../icons/family.svg";
-// import Dip from "../images/Grad-together-2.jpg"
-// import Brooklynn from "../images/Brooklynn-4.jpg";
-// import Anthony from "../images/AnthonyLabVert.jpg";
-import FamilyProfile from "../images/Martino-fam-67.jpg";
-import EngagementProfile from "../images/Brittany-Sam-61.jpg";
-// import Goofy from "../images/James-Headshot-26.jpg";
-import PortraitProfile from "../images/James-Headshot-21.jpg";
-// import Shock from "../images/Ashley-newborn-17.jpg";
-import Cuddle from "../images/Ashley-newborn-30.jpg";
-import NewbornProfile from "../images/Ashley-newborn-36.jpg";
-import WeddingProfile from "../images/Gio+Betsy-86.jpg";
-// import "../pages/Home.css";
 import "./GallerySelect.css";
 
+import FamilyProfile from "../images/Martino-fam-67.jpg";
+import EngagementProfile from "../images/Brittany-Sam-61.jpg";
+import PortraitProfile from "../images/James-Headshot-21.jpg";
+import NewbornProfile from "../images/Ashley-newborn-36.jpg";
+// import WeddingProfile from "../images/Gio+Betsy-86.jpg";
+// import "../pages/Home.css";
 
 function GallerySelect() {
   return (
@@ -35,12 +28,12 @@ function GallerySelect() {
             />
             <a href="/Engagement">
               <button className="cat-info">
-                Checkout our engagement photos.
+                Checkout our engagement photos
               </button>
             </a>
           </div>
 
-          <div className="cat-grid-item">
+          {/* <div className="cat-grid-item">
             <h2 className="cat-name">Wedding</h2>
             <img
               className="cat-photo"
@@ -50,10 +43,10 @@ function GallerySelect() {
             />
             <a href="/WeddingPage">
               <button className="cat-info">
-                Checkout our wedding photos.
+                Checkout our wedding photos
               </button>
             </a>
-          </div>
+          </div> */}
 
           <div className="cat-grid-item">
             <h2 className="cat-name">Newborn</h2>
@@ -77,7 +70,9 @@ function GallerySelect() {
               loading="lazy"
             />
             <a href="/PortraitPage">
-              <button className="cat-info">Checkout our individual portraits</button>
+              <button className="cat-info">
+                Checkout our individual portraits
+              </button>
             </a>
           </div>
 

@@ -1,5 +1,3 @@
-// List pricing options
-// Input Brooklynn's graphic of prices// Put in an email box ; Find widget
 import { useEffect, useState } from "react";
 // import axios from "axios";
 import api from "../Api.js";
@@ -16,16 +14,11 @@ import TeamBanner from "../components/TeamBanner.js";
 import BookSession from "../components/BookSession.js";
 import PricingPackage from "../components/PricePackage.js";
 
-// import WeddingCake from "../icons/wedding-cake.svg";
-// import Banner from "../images/Grad-together-2.jpg";
 import Banner from "../images/Richard+Tracey-64.jpg";
-// import PricePNG from "../images/WeddingVideographyPrice.png";
 
 import Martino from "../images/Martino-fam-67.jpg";
 import Lake from "../images/Brittany-Sam-61.jpg";
-// import Goofy from "../images/James-Headshot-26.jpg";
 import Head from "../images/James-Headshot-21.jpg";
-
 
 const VidPackages = [
   {
@@ -78,7 +71,6 @@ function PricingPage() {
     fetchPrices();
   }, []);
 
-
   if (error) {
     return (
       <div>
@@ -105,7 +97,7 @@ function PricingPage() {
 
       <div className="package-dynamic">
         {/* <PricingPackage packages={VidPackages} photos={v_photos} /> */}
-        {guides.map(guide => (
+        {guides.map((guide) => (
           <div>
             <PricingPackage packages={guide.packages} photos={v_photos} />
           </div>
