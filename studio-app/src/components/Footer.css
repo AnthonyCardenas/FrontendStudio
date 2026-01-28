@@ -92,6 +92,25 @@ a:hover.footer-link {
   text-decoration: none;
 }
 
+.footer-logo {
+   /* Style */
+  color: #550c1a;
+  font-size: 20px;
+  text-align: left;
+
+  /* Spacing */
+  
+  width: auto;
+  max-width: 45vw;
+  max-height: 45px;
+  /* height: 45px; */
+
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 0px;
+  margin: 0;
+}
+
 .content-link {
   padding: 0;
   margin: 0;

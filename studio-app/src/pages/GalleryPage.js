@@ -19,7 +19,7 @@ import Banner from "../images/Gio+Betsy-4.jpg";
 
 // import Grad from "../images/Grad-together-2.jpg";
 import Lake from "../images/Brittany-Sam-water.jpg";
-import Martino from "../images/Martino-fam-67.jpg";
+import Martino from "../images/Martino-Family-67.jpg";
 import Goofy from "../images/James-Headshot-26.jpg";
 import Shock from "../images/Ashley-newborn-17.jpg";
 import Cuddle from "../images/Ashley-newborn-30.jpg";
@@ -75,11 +75,11 @@ function GalleryPage() {
         <PhotoBanner imageUrl={Banner} altText={"Wedding photo"}>
           <Header />
         </PhotoBanner>
-        <GallerySelect />
         <FeaturedBanner />
-        <div className="gallery-body">
+        <GallerySelect />
+        {/* <div className="gallery-body">
           <p>Failed to load more photos. Please try again later.</p>
-        </div>
+        </div> */}
         <Footer />
       </div>
     );

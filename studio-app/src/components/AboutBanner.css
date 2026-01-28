@@ -1,56 +1,90 @@
-
-.about-banner {
-    margin:0;
-    padding: 30px;
-    width: fit-content;
-
-    /* border-style: solid; */
+/* Base reset */
+* {
+  box-sizing: border-box;
 }
 
 .about-wrapper {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
 
-  gap: 30px;
-  max-width: 1200px;
-
-  margin: 0 auto;
+  background: #fff;
+  margin: 20px;
+  margin-bottom: 40px;
+  min-height: 70vh;
+  /* border-style: solid; */
 }
 
-@media (min-width: 700px) {
-  .about-wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
+/* CONTENT */
 .about-info {
   width: 100%;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
+  padding: 80px 70px;
+  max-width: 600px;
+  /* border-style: solid; */
 }
 
-.about-photo {
+/* IMAGE */
+
+.photo-wrapper {
+  background: #fff;
+  margin: 20px;
+  margin-left: 40px;
+  margin-right: 50px;
+  /* padding: 0; */
+
+  /* text-align: center; */
+  /* border-style: solid; */
+}
+
+/* .profile-photo {
+  margin: 0;
+  padding: 0;
+} */
+
+.profile-photo img {
   width: 100%;
+  height: 100%;
+  max-height: 90vh;
+  object-fit: cover;
 
-  margin: 0;
-  padding: 0;
-
-  align-content: center;
-  /* align-items: center; */
-  justify-items: center;
-  /* justify-content: center; */
-
-  text-align: center;
-   /* border-style: solid; */
+  margin: 10px;
+  border-radius: 20px;
+  /* border-style: solid; */
 }
 
-.profile-photo {
-  margin: 0;
-  padding: 0;
-
-  /* width: 100%; */
-  height: auto;
-  max-height: 300px;
-
- 
+/* ===========================
+   RESPONSIVE (HALF SCREEN)
+   =========================== */
+@media (max-width: 800px) {
+  .about-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .profile-photo {
+    height: 400px;
+  }
+  .profile-photo img {
+    border-radius: 16px;
+  }
 }
+/* @media (max-width: 800px) {
+  .pricing-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-image {
+    height: 380px;
+  }
+
+  .pricing-image img {
+    border-radius: 16px;
+  }
+
+  .pricing-content {
+    padding: 50px 30px;
+  }
+
+  .pricing-title {
+    font-size: 28px;
+  }
+} */

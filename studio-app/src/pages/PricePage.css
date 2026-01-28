@@ -1,3 +1,27 @@
+/* .showcase-title {
+
+} */
+
+.showcase-title p {
+  font-size: large;
+  font-style: normal white;
+  text-decoration-color: white;
+  color:white;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+/* .showcase-title HashLink {
+  font-size: large;
+  font-style: normal white;
+} */
+
 .package-dynamic {
   display: grid;
   grid-template-columns: 1fr;
@@ -16,13 +40,18 @@
 }
 
 .style-div {
-    margin: 20px;
-    margin-right: 100px;
-    margin-left: 100px;
-    padding: 0;
+  margin: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 0;
 
-    /* border-style: solid black; */
-    border-top: solid rgb(148, 148, 148);
-    border-width: 2px;
-    /* padding-top */
+  /* border-style: solid black; */
+  border-top: solid rgb(148, 148, 148);
+  border-width: 2px;
+  /* padding-top */
+}
+
+.package-title {
+  font-family: "Georgia", serif;
+  font-size: 20px;
 }

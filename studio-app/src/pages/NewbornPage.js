@@ -9,9 +9,10 @@ import FilteredReviews from "../components/FilteredReviews";
 
 // import WeddingCake from "../icons/wedding-cake.svg";
 import Banner from "../images/Ashley-newborn-17.jpg";
+import GalleryList from "../components/GalleryList";
 
 // reposition header photo
-
+import NewbornPhotoList from "../organizers/NewbornPhotoList";
 
 function NewbornPage() {
   return (
@@ -22,8 +23,9 @@ function NewbornPage() {
       <div className="showcase-title">
         <h2>Newborn Photography</h2>
       </div>
-      <FilteredGallery filterCategory={"Newborn"} />
-      <FilteredReviews filterCategory={"Newborn"}/>
+      <GalleryList photos={NewbornPhotoList}/>
+      {/* <FilteredGallery filterCategory={"Newborn"} /> */}
+      {/* <FilteredReviews filterCategory={"Newborn"}/> */}
       <Footer />
     </div>
   );

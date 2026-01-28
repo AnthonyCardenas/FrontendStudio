@@ -1,23 +1,115 @@
 .contact-title {
+
+  /* Spacing */
+  margin: 0;
+  padding: 20px;
+  /* padding-top: 20px;*/
+  padding-bottom: 5px;
+
   /* Alignment */
-  /* width: 100%; */
   justify-content: center;
   justify-items: center;
   align-items: center;
   align-content: center;
 
   /* Style */
-  font-size: 25px;
+  font-size: 20px;
   background-color: #550c1a;
   color: #faf6ee;
   text-align: center;
   /* font-weight: 50; */
 
-  /* Spacing */
+}
+
+.contact-icons {
+  display: flex;
   margin: 0;
   padding: 20px;
-  /* padding-top: 20px;
-  padding-bottom: 20px; */
+  padding-top: 5px;
+
+  background-color: #550c1a;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+
+  /* width: 100%; */
+  /* border: solid black; */
+}
+
+.contact-icon-container {
+  margin: 0;
+  padding: 0px;
+  /* padding-top: 5px; */
+
+  /* background-color: #550c1a; */
+  align-content: center;
+  align-items: baseline;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+
+  /* border: solid black; */
+}
+
+.contact-icon-1 {
+  align-content: center;
+  align-items: center;  
+  justify-content: center;
+  justify-items: center; 
+
+  /* Style */
+  color: #d2daad;
+  font-size: 20px;
+  text-align: left;
+  filter: brightness(0) invert(1);
+
+  /* Spacing */
+  /* height: 35px;
+  width: 80px; */
+  width: 40px;
+  height: auto;
+  padding: 0;
+  /* padding-left: 10px; */
+  /* padding-right: 20px; */
+  margin: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  /* border: solid black; */
+}
+
+.contact-icon-1:hover {
+  transform: scale(1.05);
+}
+
+.contact-icon-2 {
+  align-content: center;
+  align-items: center;  
+  justify-content: center;
+  justify-items: center;  
+
+  /* Style */
+  color: #d2daad;
+  font-size: 20px;
+  text-align: left;
+  filter: brightness(0) invert(1);
+
+  /* Spacing */
+  width: 58px;
+  height: auto;
+  padding: 0;
+  /* padding-left: 10px; */
+  /* padding-left: 20px; */
+  margin: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  /* border: solid black; */
+}
+
+.contact-icon-2:hover {
+  transform: scale(1.05);
 }
 
 .contact-body {

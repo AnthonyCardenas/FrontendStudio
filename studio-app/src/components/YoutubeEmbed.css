@@ -1,0 +1,33 @@
+.video-container {
+    display:flex;
+
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    
+    background-color: white;
+    color: red;
+
+    margin: 0;
+    padding: 10px;
+
+}
+
+.video-dims{
+    display:flex;
+
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    
+    background-color: white;
+    color: red;
+
+    margin: 0;
+    padding: 0;
+    width: 560;
+    height: 315;
+
+}

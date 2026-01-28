@@ -8,6 +8,7 @@ export const PHOTO_URL = process.env.REACT_APP_PHOTO_URL;
 export const REVIEW_URL = process.env.REACT_APP_REVIEW_URL;
 export const PRICING_URL = process.env.REACT_APP_PRICING_URL;
 export const CONTACT_URL = process.env.REACT_APP_CONTACT_URL;
+// export const API_URL = process.env.REACT_APP_API_URL;
 
 // export const BASE_URL = process.env.REACT_APP_BASE_URL;
 

@@ -13,7 +13,7 @@ import "./FeaturedBanner.css";
 
 // import Banner from "../images/LabPhoto.jpg";
 import Lake from "../images/Brittany-Sam-water.jpg";
-import Martino from "../images/Martino-fam-walk.jpg";
+import Martino from "../images/Martino-Family-walk.jpg";
 import Goofy from "../images/James-Headshot-26.jpg";
 import Shock from "../images/Ashley-newborn-2.jpg";
 import Cuddle from "../images/Ashley-newborn-30.jpg";

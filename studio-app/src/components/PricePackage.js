@@ -2,7 +2,7 @@
 
 import "./PricePackage.css";
 
-import Martino from "../images/Martino-fam-67.jpg";
+import Martino from "../images/Martino-Family-67.jpg";
 import Lake from "../images/Brittany-Sam-61.jpg";
 // import Goofy from "../images/James-Headshot-26.jpg";
 import Head from "../images/James-Headshot-21.jpg";

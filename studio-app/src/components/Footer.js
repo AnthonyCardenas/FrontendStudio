@@ -4,18 +4,23 @@ import "./Footer.css";
 import InstaIcon from "../icons/instagram.svg";
 import LinkedIcon from "../icons/linkedin.svg";
 import YouTubeIcon from "../icons/youtube.svg";
+import RoseLogo from "../icons/RoseLogoName.png";
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <h2 className="footer-title">RosieStudio</h2>
+        {/* <h2 className="footer-title">BrooklynnRoseStudio</h2> */}
+        <a href="/ContactPage">
+          <img className="footer-logo" src={RoseLogo} alt="BrooklynnRoseStudio" />
+          {/* <p className="icon">Instagram</p> */}
+        </a>
         {/* <a class="footer-link" href="/ContactPage">
           <p className="contact-link">Contact Page</p>
         </a> */}
 
         <div className="social-section">
-          <h2>Follow me on:</h2>
+          {/* <h2>Follow me on:</h2> */}
           <div id="footer-icons">
             {/* Put in icons for social apps */}
             <a href="https://www.instagram.com/brooklynnrosestudio/">

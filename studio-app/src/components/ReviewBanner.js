@@ -8,6 +8,8 @@ import Review from "./Review";
 import "./ReviewBanner.css";
 import ItemSlider from "./ItemSlider";
 import { REVIEW_URL } from "..";
+import ReviewList from "../organizers/ReviewList";
+import CompleteReviewList from "../organizers/CompleteReviewList";
 
 const baseReviews = [
   {
@@ -69,7 +71,8 @@ function ReviewBanner() {
       <div className="review-banner">
         <div className="review-grid">
           <ItemSlider
-            items={baseReviews}
+            // items={baseReviews}
+            items={CompleteReviewList}
             renderItem={(review) => (
               <Review
                 rating={review.rating}
@@ -79,7 +82,7 @@ function ReviewBanner() {
               />
             )}
           />
-          <p>Failed to load more reviews. Try again later.</p>
+          {/* <p>Failed to load more reviews. Try again later.</p> */}
         </div>
       </div>
     );

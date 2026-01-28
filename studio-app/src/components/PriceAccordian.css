@@ -1,0 +1,121 @@
+
+/* Base reset */
+* {
+  box-sizing: border-box;
+}
+
+.pricing-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 80vh;
+  background: #fff;
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+/* IMAGE */
+.image-wrapper {
+  background: #fff;
+  margin: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.pricing-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+/* CONTENT */
+.pricing-content {
+  padding: 40px 70px;
+  max-width: 640px;
+  /* border-style: solid; */
+}
+
+.pricing-title {
+  font-family: "Georgia", serif;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.pricing-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* ACCORDION */
+.accordion-item {
+  border-top: 1px solid #ddd;
+}
+
+.accordion-item:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 20px 0;
+  background: none;
+  border: none;
+  font-size: 16px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.chevron {
+  transition: transform 0.3s ease;
+}
+
+.accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.accordion-body p {
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.accordion-item.open .accordion-body {
+  max-height: 120px;
+}
+
+.accordion-item.open .chevron {
+  transform: rotate(180deg);
+}
+
+/* ===========================
+   RESPONSIVE (HALF SCREEN)
+   =========================== */
+
+@media (max-width: 800px) {
+  .pricing-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-image {
+    height: 380px;
+  }
+
+  .pricing-image img {
+    border-radius: 16px;
+  }
+
+  .pricing-content {
+    padding: 50px 30px;
+  }
+
+  .pricing-title {
+    font-size: 28px;
+  }
+}

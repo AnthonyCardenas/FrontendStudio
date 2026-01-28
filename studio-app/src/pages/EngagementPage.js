@@ -9,8 +9,10 @@ import FilteredReviews from "../components/FilteredReviews";
 
 // import WeddingCake from "../icons/wedding-cake.svg";
 import Banner from "../images/Gio+Betsy-63.jpg";
-
-
+import EngagementReviewList from "../organizers/EngagementReviewList";
+import GalleryList from "../components/GalleryList";
+import ReviewList from "../components/ReviewList";
+import EngagementPhotoList from "../organizers/EngagementPhotoList";
 
 function EngagementPage() {
   return (
@@ -21,8 +23,10 @@ function EngagementPage() {
       <div className="showcase-title">
         <h2>Engagement Photography</h2>
       </div>
-      <FilteredGallery filterCategory={"Engagement"} />
-      <FilteredReviews filterCategory={"Engagement"}/>
+      <GalleryList photos={EngagementPhotoList} />
+      <ReviewList reviews={EngagementReviewList} />
+      {/* <FilteredGallery filterCategory={"Engagement"} /> */}
+      {/* <FilteredReviews filterCategory={"Engagement"} /> */}
       <Footer />
     </div>
   );

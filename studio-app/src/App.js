@@ -23,16 +23,18 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
 
-        <Route path="/ContactPage" element={<ContactPage />} />
-        <Route path="/GalleryPage" element={<GalleryPage />} />
-        <Route path="/PricingPage" element={<PricingPage />} />
-        <Route path="/AboutPage" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/pricing" element={<PricingPage />} />
+        <Route path="/about" element={<AboutPage />} />
 
-        {/* <Route path="/WeddingPage" element={<WeddingPage />} /> */}
-        <Route path="/NewbornPage" element={<NewbornPage />} />
-        <Route path="/FamilyPage" element={<FamilyPage />} />
-        <Route path="/PortraitPage" element={<PortraitPage />} />
-        <Route path="/Engagement" element={<EngagementPage />} />
+        <Route path="/weddings" element={<WeddingPage />} />
+        <Route path="/newbornphotos" element={<NewbornPage />} />
+        <Route path="/familyphotos" element={<FamilyPage />} />
+        <Route path="/portraits" element={<PortraitPage />} />
+        <Route path="/engagementphotos" element={<EngagementPage />} />
+
+        {/* <Route path="/video" element={<VideoGrid />} /> */}
 
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

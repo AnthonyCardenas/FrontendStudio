@@ -9,7 +9,9 @@ import FilteredReviews from "../components/FilteredReviews";
 
 // import WeddingCake from "../icons/wedding-cake.svg";
 import Banner from "../images/Timmy-headshot-4.jpg";
+import GalleryList from "../components/GalleryList";
 
+import HeadshotPhotoList from "../organizers/HeadshotPhotoList";
 
 function PortraitPage() {
   return (
@@ -20,8 +22,9 @@ function PortraitPage() {
       <div className="showcase-title">
         <h2>Portrait Photography</h2>
       </div>
-      <FilteredGallery filterCategory={"Portrait"} />
-      <FilteredReviews filterCategory={"Portrait"}/>
+      {/* <FilteredGallery filterCategory={"Portrait"} /> */}
+      <GalleryList photos={HeadshotPhotoList} />
+      {/* <FilteredReviews filterCategory={"Portrait"}/> */}
       <Footer />
     </div>
   );
