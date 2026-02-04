@@ -16,6 +16,7 @@ import NewbornPage from "./pages/NewbornPage";
 import PortraitPage from "./pages/PortraitPage";
 import FamilyPage from "./pages/FamilyPage";
 import EngagementPage from "./pages/EngagementPage";
+import CommercialPage from "./pages/CommercialPage";
 
 function App() {
   return (
@@ -29,10 +30,11 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
 
         <Route path="/weddings" element={<WeddingPage />} />
-        <Route path="/newbornphotos" element={<NewbornPage />} />
-        <Route path="/familyphotos" element={<FamilyPage />} />
+        <Route path="/newborns" element={<NewbornPage />} />
+        <Route path="/family" element={<FamilyPage />} />
         <Route path="/portraits" element={<PortraitPage />} />
-        <Route path="/engagementphotos" element={<EngagementPage />} />
+        <Route path="/engagements" element={<EngagementPage />} />
+        <Route path="/commercial" element={<CommercialPage />} />
 
         {/* <Route path="/video" element={<VideoGrid />} /> */}
 

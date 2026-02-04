@@ -9,6 +9,7 @@ const CompleteVideoList = [
 
 ];
 // List Order: Laura & Caleb, Annabelle & Anthony, Gio & Betsy, 
-// Aisha & Noah, Natasha & Rick, Diana & Michael, Gabe & Lauren
+// Aisha & Noah, Natasha & Rick, Diana & Michael, 
+// Gabe & Lauren (First Look ??)
 
 export default CompleteVideoList;

@@ -7,6 +7,7 @@ import EngagementProfile from "../images/Brittany-Sam-61.jpg";
 import PortraitProfile from "../images/James-Headshot-21.jpg";
 import NewbornProfile from "../images/Ashley-newborn-36.jpg";
 import WeddingProfile from "../images/Gio+Betsy-86.jpg";
+import CommercialProfile from "../images/Columbine_promo-114.jpg";
 // import "../pages/Home.css";
 
 function GallerySelect() {
@@ -26,7 +27,7 @@ function GallerySelect() {
               alt="Engagement Photos"
               loading="lazy"
             />
-            <a href="/engagementphotos">
+            <a href="/engagements">
               <button className="cat-info">
                 Checkout our engagement photos
               </button>
@@ -56,7 +57,7 @@ function GallerySelect() {
               alt="Newborn Photos"
               loading="lazy"
             />
-            <a href="/newbornphotos">
+            <a href="/newborns">
               <button className="cat-info">Checkout our newborn photos</button>
             </a>
           </div>
@@ -84,10 +85,26 @@ function GallerySelect() {
               alt="Family Photos"
               loading="lazy"
             />
-            <a href="/familyphotos">
+            <a href="/family">
               <button className="cat-info">Checkout our family photos</button>
             </a>
           </div>
+
+          <div className="cat-grid-item">
+            <h2 className="cat-name">Commercial</h2>
+            <img
+              className="cat-photo"
+              src={CommercialProfile}
+              alt="Commercial Photo"
+              loading="lazy"
+            />
+            <a href="/commercial">
+              <button className="cat-info">
+                Checkout our commercial shoots
+              </button>
+            </a>
+          </div>
+
         </div>
       </div>
     </div>

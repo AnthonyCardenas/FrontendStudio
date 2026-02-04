@@ -4,15 +4,14 @@ import Header from "../components/Header";
 import PhotoBanner from "../components/PhotoBanner";
 import Footer from "../components/Footer";
 
-import FilteredGallery from "../components/FilteredGallery";
-import FilteredReviews from "../components/FilteredReviews";
-
-// import WeddingCake from "../icons/wedding-cake.svg";
-import Banner from "../images/Ashley-newborn-17.jpg";
 import GalleryList from "../components/GalleryList";
+// import FilteredGallery from "../components/FilteredGallery"; // For Django
+// import FilteredReviews from "../components/FilteredReviews";
 
-// reposition header photo
 import NewbornPhotoList from "../organizers/NewbornPhotoList";
+
+import Banner from "../images/Ashley-newborn-17.jpg";
+
 
 function NewbornPage() {
   return (
@@ -23,8 +22,12 @@ function NewbornPage() {
       <div className="showcase-title">
         <h2>Newborn Photography</h2>
       </div>
+      {/* <h1 className="review-title" >Newborn Shoot Reviews</h1> */}
+      {/* <ReviewList reviews={NewbornReviewList} /> */}
+      {/* <h1 className="photo-title" >Newborn Shoot Photos</h1> */}
       <GalleryList photos={NewbornPhotoList}/>
-      {/* <FilteredGallery filterCategory={"Newborn"} /> */}
+      {/* For DJango */}
+      {/* <FilteredGallery filterCategory={"Newborn"} />  */}
       {/* <FilteredReviews filterCategory={"Newborn"}/> */}
       <Footer />
     </div>
