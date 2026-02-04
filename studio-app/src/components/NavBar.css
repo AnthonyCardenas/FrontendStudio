@@ -1,0 +1,83 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.corner-nav {
+  /* position: fixed; */
+  position: relative;
+  /* top: 10px; */
+  left: 20px; 
+  z-index: 1000;
+  /* border: solid black; */
+  /* margin-right: 50px;   */
+  /* font-family: "Georgia", serif; */
+  font-family: "Georgia";
+}
+
+/* LOGO BUTTON */
+.corner-nav-logo {
+  background: #550c1b42;
+  border: 1px solid #ddd;
+  padding: 1px 14px;
+  border-radius: 16px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.corner-nav-logo:hover {
+    background-color: #550c1b80;
+}
+
+
+/* CARET */
+.caret {
+  transition: transform 0.3s ease;
+}
+
+.caret.open {
+  transform: rotate(180deg);
+}
+
+/* DROPDOWN MENU */
+.corner-nav-menu {
+  margin-top: 8px;
+  background: #550c1b42;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.35s ease;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* OPEN STATE */
+.corner-nav-menu.show {
+  max-height: 400px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* LINKS */
+.corner-nav-menu a {
+  display: block;
+  padding: 14px 18px;
+  text-decoration: none;
+  color: #222;
+  font-size: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.corner-nav-menu a:last-child {
+  border-bottom: none;
+}
+
+.corner-nav-menu a:hover {
+  background: #550c1b69;
+}
+

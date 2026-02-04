@@ -1,4 +1,5 @@
 import "./GalleryList.css";
+import "./ReviewList.css";
 import Review from "./Review";
 import ItemSlider from "./ItemSlider";
 

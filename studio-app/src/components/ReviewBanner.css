@@ -53,7 +53,8 @@
 .review-block {
   width: 100%;
   min-width: 250px;
-  max-width: 370px;
+  /* max-width: 370px; */
+  /* max-width: 30%; */
   /* width: 350px; */
   object-fit: cover;
 
@@ -62,7 +63,7 @@
   margin-bottom: 10px;
 
   padding: 0;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 .review-content {

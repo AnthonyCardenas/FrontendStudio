@@ -1,0 +1,30 @@
+.review-banner {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  /* padding: 10px; */
+  width: 100%;
+
+  display: flex;
+
+  /* border: solid black; */
+}
+
+.review-grid {
+  /* margin: 0; */
+  padding: 0;
+
+  /* padding-left: 5%;
+  padding-right: 5%; */
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  /* display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  max-width: 1200px; */
+  /* min-width: 95%; */
+  width: 100%;
+  margin: 0 auto;
+  /* border: solid red; */
+}

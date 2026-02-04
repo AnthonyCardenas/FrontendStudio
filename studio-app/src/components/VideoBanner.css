@@ -2,16 +2,26 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
-  padding: 2rem;
+  /* padding: 2rem; */
+  padding: 5%;
 
   background-color: #faf6ee;
 }
 
 /* Video wrapper keeps 16:9 ratio */
 .video-box {
+  /* Location */
   position: relative;
+  /* left: 10%; */
+  /* justify-items:center; */
+  /* align-items: end; */
+
+  /* Sizing */
   width: 100%;
+  /* max-width: 800px; */
   padding-top: 56.25%;
+
+  /* Style */
   background: #000;
   border-radius: 12px;
   overflow: hidden;

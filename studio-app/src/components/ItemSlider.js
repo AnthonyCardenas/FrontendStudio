@@ -21,7 +21,7 @@ export default function ItemSlider({ items, renderItem }) {
           </div>
         ))}
       </div>
-      <div>
+      <div className="button-wrapper">
         <button className="slider-btn" onClick={handleNext}>
           →
         </button>

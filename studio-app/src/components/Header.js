@@ -1,13 +1,15 @@
 // import React from "react";
 import "./Header.css";
 
-// import RoseLogo from "../icons/RoseLogo11.svg"
+import NavBar from "./NavBar";
+// import GalleryPage from "../pages/GalleryPage.js";
+// import ContactPage from "../pages/ContactPage.js";
+
 import RoseLogo from "../icons/RoseLogoClear.png";
+// import RoseLogo from "../icons/RoseLogo11.svg"
 // import RosePNG from "../icons/RoseLogo.png"
 // import InstaIcon from "../icons/instagram.svg";
 
-// import GalleryPage from "../pages/GalleryPage.js";
-// import ContactPage from "../pages/ContactPage.js";
 
 function Header() {
   return (
@@ -16,7 +18,7 @@ function Header() {
         <div className="header-fade-top"></div>
 
         <div className="header-banner">
-          <div className="header-home">
+          {/* <div className="header-home">
             <a href="/">
               <img
                 className="header-icon"
@@ -24,7 +26,9 @@ function Header() {
                 alt="BrooklynnRoseStudio"
               />
             </a>
-          </div>
+          </div> */}
+          <NavBar>text</NavBar>
+          {/* <div className="navbar-spacer"/> */}
 
           <div className="tabs-container">
             <a href="/">

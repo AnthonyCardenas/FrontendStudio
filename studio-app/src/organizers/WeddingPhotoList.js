@@ -12,7 +12,7 @@ import Wedding07 from "../images/Tiffany+Mario_Temple-81.jpg";
 // import Wedding4 from "../images/Tiffany+Mario_Temple-59.jpg";
 // import Wedding5 from "../images/Tiffany+Mario_Temple-63.jpg";
 
-import Wedding11 from "../images/Tiffany+Mario_sneakpeek-1.jpg";
+// import Wedding11 from "../images/Tiffany+Mario_sneakpeek-1.jpg";
 import Wedding12 from "../images/Tiffany+Mario_sneakpeek-6.jpg";
 
 const WeddingPhotoList = [
@@ -24,7 +24,7 @@ const WeddingPhotoList = [
   { id: 6, image: Wedding06, title: "TiffanyM6" },
   { id: 7, image: Wedding07, title: "TiffanyM7" },
 
-  { id: 11, image: Wedding11, title: "TiffanyM11" },
+  // { id: 11, image: Wedding11, title: "TiffanyM11" },
   { id: 12, image: Wedding12, title: "TiffanyM12" },
 
 ];

@@ -8,9 +8,12 @@
   column-count: 1;
   column-gap: 16px;
   width: 100%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
+  max-width: 91%;
   margin: 0 auto;
+  margin-top: 3%;
   /* padding: 10px; */
+  /* border: solid black; */
 }
 
 /* Increase columns on larger screens */
