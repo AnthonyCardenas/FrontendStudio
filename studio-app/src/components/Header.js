@@ -1,5 +1,6 @@
 // import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 import NavBar from "./NavBar";
 // import GalleryPage from "../pages/GalleryPage.js";
@@ -31,37 +32,53 @@ function Header() {
           {/* <div className="navbar-spacer"/> */}
 
           <div className="tabs-container">
-            <a href="/">
+            <Link to="/">
+            {/* <a href="/"> */}
               <div className="header-tabs">
                 <p>Home</p>
               </div>
-            </a>
-            <a href="/gallery">
+              {/* </a> */}
+            </Link>
+            
+            <Link to="/gallery">
+            {/* <a href="/gallery"> */}
               <div className="header-tabs">
                 <p>Gallery</p>
               </div>
-            </a>
-            <a href="/pricing">
+            {/* </a> */}
+            </Link>
+            
+            <Link to="/pricing">
+            {/* <a href="/pricing"> */}
               <div className="header-tabs">
                 <p>Pricing</p>
               </div>
-            </a>
+            {/* </a> */}
+            </Link>
+            
             {/* <a href="/contact">
               <div className="header-tabs">
                 <p>Contact</p>
               </div>
             </a> */}
-            <a href="/about">
+
+            <Link to="/about">
+            {/* <a href="/about"> */}
               <div className="header-tabs">
                 <p>About</p>
               </div>
-            </a>
+            {/* </a> */}
+            </Link>
+            
           </div>
 
           <div className="header-button">
-            <a href="/contact">
+            <Link to="/contact">
+            {/* <a href="/contact"> */}
               <button className="booking-button">Contact Me</button>
-            </a>
+            {/* </a> */}
+            </Link>
+            
           </div>
         </div>
       </div>
