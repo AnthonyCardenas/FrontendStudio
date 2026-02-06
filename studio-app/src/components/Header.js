@@ -12,6 +12,9 @@ import RoseLogo from "../icons/RoseLogoClear.png";
 // import InstaIcon from "../icons/instagram.svg";
 
 
+// TODO:: Change header for mobile devices
+// Put header all in navbar for mobile devices
+
 function Header() {
   return (
     <header className="header">

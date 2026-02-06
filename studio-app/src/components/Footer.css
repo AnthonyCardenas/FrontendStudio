@@ -92,23 +92,50 @@ a:hover.footer-link {
   text-decoration: none;
 }
 
+
+/* LINKS */
 .footer-logo {
    /* Style */
   color: #550c1a;
   font-size: 20px;
   text-align: left;
-
-  /* Spacing */
-  
-  width: auto;
-  max-width: 45vw;
+  /* Sizing */
   max-height: 45px;
-  /* height: 45px; */
-
+  width: auto;
+  /* Spacing */
   padding: 0;
   padding-left: 10px;
   padding-right: 0px;
   margin: 0;
+}
+.footer-logo-mobile {
+  display: none;
+}
+
+/* MOBILE VERSION */
+@media (max-width: 850px) {
+  .footer-logo {
+    display: none;
+  }
+  .footer-logo-mobile {
+    display: block;
+    /* Style */
+    color: #550c1a;
+    font-size: 20px;
+    text-align: left;
+
+    /* Sizing */
+    height: 75px;
+    width: auto;
+    /* Spacing */
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin: 0;
+  }
+  .footer-logo-mobile:hover {
+    transform: scale(1.05);
+  }
 }
 
 .content-link {

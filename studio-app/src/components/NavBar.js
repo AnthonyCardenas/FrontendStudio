@@ -5,6 +5,9 @@ import "./Header.css";
 
 import RoseLogo from "../icons/RoseLogoClear.png";
 
+// TODO:: Make nav bar work for mobile
+
+
 // export default function NavBar() {
 function NavBar() {
   const [open, setOpen] = useState(false);

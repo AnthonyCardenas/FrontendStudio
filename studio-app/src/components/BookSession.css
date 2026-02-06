@@ -44,8 +44,13 @@
 .book-title {
   font-size: 48px;
   font-weight: 600;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #807e7eb7;
   margin-bottom: 20px;
   line-height: 1.2;
+}
+.book-title-mobile {
+  display: none;
 }
 
 /* Button layout */
@@ -70,9 +75,11 @@
   color: #333;
   border-color: white;
 }
-
 .btn-light:hover {
   background: #f1f1f1;
+}
+.btn-light-mobile {
+  display: none;
 }
 
 /* Tan/gold button */
@@ -82,7 +89,55 @@
   border-radius: 30px;
   border-color: #c9a77a;
 }
-
 .btn-gold:hover {
   background: #b89363;
+}
+.btn-gold-mobile {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .book-title {
+    display: none;
+  }
+  .book-title-mobile {
+    display: block;
+    font-size: 38px;
+    font-weight: 500;
+    color:#ffffff;
+    text-shadow: 1px 1px 2px #807e7eb7;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  .book-buttons {
+    display: flex;
+    /* flex-direction: ; */
+    gap: 16px;
+  }
+
+  .btn-light {
+    display: none;
+  }
+  .btn-light-mobile {
+    display: block;
+    background: white;
+    color: #333;
+    border-color: white;
+  }
+  .btn-light-mobile:hover {
+    background: #f1f1f1;
+  }
+  .btn-gold {
+    display: none;
+  }
+  .btn-gold-mobile {
+    display: block;
+    background: #c9a77a;
+    color: white;
+    border-radius: 30px;
+    border-color: #c9a77a;
+  }
+  .btn-gold-mobile:hover {
+    background: #b89363;
+  }
 }

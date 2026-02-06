@@ -1,6 +1,7 @@
 // import React from "react";
 
 import "./BookSession.css";
+import { Link } from "react-router-dom";
 
 function BookSession() {
   return (
@@ -13,15 +14,21 @@ function BookSession() {
           <br />
           Your Session?
         </h1>
+        <h1 className="book-title-mobile">
+          Ready to Book Your Session?
+        </h1>
 
         <div className="book-buttons">
-          <a href="/PricingPage">
-            <button className="btn btn-light">Check out our prices</button>
-          </a>
-
-          <a href="/GalleryPage">
-            <button className="btn btn-gold">View Gallery</button>
-          </a>
+          <Link to="/pricing">
+            <button className="btn btn-light">Check out my prices</button>
+            <button className="btn btn-light-mobile">Prices</button>
+          </Link>
+          
+          <Link to="/gallery">
+            <button className="btn btn-gold">View the gallery</button>
+            <button className="btn btn-gold-mobile">Gallery</button>
+          </Link>
+         
         </div>
       </div>
     </div>
