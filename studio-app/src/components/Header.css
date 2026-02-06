@@ -277,3 +277,19 @@ a {
 .header-icon:hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 850px){
+  .tabs-container {
+    display: none;
+  }
+  .header-button {
+    display: none;
+  }
+  .header-title h1 {
+  font-size: 35px;
+  }
+  .header-title p {
+    font-size: 15px;
+  }
+
+}

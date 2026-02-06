@@ -80,4 +80,65 @@
 .corner-nav-menu a:hover {
   background: #550c1b69;
 }
+/* MOBILE */
+.corner-nav-menu-mobile {
+  display: none;
+}
 
+@media (max-width: 850px) {
+  .corner-nav {
+    transform: translate(0, 0);
+    position: fixed;
+    /* position: relative; */
+    top: 10px;
+    left: 20px; 
+    z-index: 1000;
+    overflow: visible;
+    /* border: solid black; */
+    /* margin-right: 50px;   */
+    /* font-family: "Georgia", serif; */
+    font-family: "Georgia";
+  }
+  .corner-nav-menu {
+    display: none;
+  }
+  /* MOBILE DROPDOWN MENU */
+  .corner-nav-menu-mobile {
+    display: block;
+    margin-top: 8px;
+    background: #550c1b42;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.35s ease;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  }
+
+  /* MOBILE OPEN STATE */
+  .corner-nav-menu-mobile.show {
+    max-height: 400px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* MOBILE LINKS */
+  .corner-nav-menu-mobile a {
+    display: block;
+    padding: 14px 18px;
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .corner-nav-menu-mobile a:last-child {
+    border-bottom: none;
+  }
+
+  .corner-nav-menu-mobile a:hover {
+    background: #550c1b69;
+  }
+}

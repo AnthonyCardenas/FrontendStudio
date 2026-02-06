@@ -32,31 +32,24 @@ function Header() {
             </a>
           </div> */}
           <NavBar>text</NavBar>
-          {/* <div className="navbar-spacer"/> */}
 
           <div className="tabs-container">
             <Link to="/">
-            {/* <a href="/"> */}
               <div className="header-tabs">
                 <p>Home</p>
               </div>
-              {/* </a> */}
             </Link>
             
             <Link to="/gallery">
-            {/* <a href="/gallery"> */}
               <div className="header-tabs">
                 <p>Gallery</p>
               </div>
-            {/* </a> */}
             </Link>
             
             <Link to="/pricing">
-            {/* <a href="/pricing"> */}
               <div className="header-tabs">
                 <p>Pricing</p>
               </div>
-            {/* </a> */}
             </Link>
             
             {/* <a href="/contact">
@@ -66,23 +59,19 @@ function Header() {
             </a> */}
 
             <Link to="/about">
-            {/* <a href="/about"> */}
               <div className="header-tabs">
                 <p>About</p>
               </div>
-            {/* </a> */}
             </Link>
             
           </div>
 
           <div className="header-button">
             <Link to="/contact">
-            {/* <a href="/contact"> */}
               <button className="booking-button">Contact Me</button>
-            {/* </a> */}
             </Link>
-            
           </div>
+
         </div>
       </div>
 

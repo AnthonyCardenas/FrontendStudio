@@ -52,6 +52,18 @@ function NavBar() {
         <Link to="/portraits"    onClick={() => setOpen(false)}>Portrait</Link>
         <Link to="/commercial"  onClick={() => setOpen(false)}>Commercial</Link>
       </nav>
+      <nav className={`corner-nav-menu-mobile ${open ? "show" : ""}`}>
+        <Link to="/"        onClick={() => setOpen(false)}>Home</Link>
+        <Link to="/gallery" onClick={() => setOpen(false)}>Gallery</Link>
+        <Link to="/pricing" onClick={() => setOpen(false)}>Pricing</Link>
+        <Link to="/about"   onClick={() => setOpen(false)}>About</Link>
+        {/* <Link to="/weddings"    onClick={() => setOpen(false)}>Weddings</Link>
+        <Link to="/engagements" onClick={() => setOpen(false)}>Engagements</Link>
+        <Link to="/family"      onClick={() => setOpen(false)}>Family</Link>
+        <Link to="/newborns"     onClick={() => setOpen(false)}>Newborn</Link>
+        <Link to="/portraits"    onClick={() => setOpen(false)}>Portrait</Link>
+        <Link to="/commercial"  onClick={() => setOpen(false)}>Commercial</Link> */}
+      </nav>
      </div>
     </header>
   );
