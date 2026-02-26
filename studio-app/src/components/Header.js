@@ -1,19 +1,7 @@
-// import React from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
-
 import NavBar from "./NavBar";
-// import GalleryPage from "../pages/GalleryPage.js";
-// import ContactPage from "../pages/ContactPage.js";
-
-import RoseLogo from "../icons/RoseLogoClear.png";
-// import RoseLogo from "../icons/RoseLogo11.svg"
-// import RosePNG from "../icons/RoseLogo.png"
-// import InstaIcon from "../icons/instagram.svg";
-
-
-// TODO:: Change header for mobile devices
-// Put header all in navbar for mobile devices
+// import RoseLogo from "../icons/RoseLogoClear.png";
 
 function Header() {
   return (
@@ -32,6 +20,7 @@ function Header() {
             </a>
           </div> */}
           <NavBar>text</NavBar>
+          <div className="header-banner-spacing"></div>
 
           <div className="tabs-container">
             <Link to="/">
@@ -76,7 +65,6 @@ function Header() {
       </div>
 
       <div className="header-resizer-bottom">
-        {/* <div className="header-buffer"></div> */}
         <div className="header-title">
           <h1>Brooklynn Rose Studio</h1>
           <p>Making time stand still (but in the most flattering light)</p>

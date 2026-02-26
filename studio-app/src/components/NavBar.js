@@ -5,7 +5,8 @@ import "./Header.css";
 
 import RoseLogo from "../icons/RoseLogoClear.png";
 
-// TODO:: Make nav bar work for mobile
+// TODO:: Make nav bar work for mobile , 
+// figure out how to get past overflow hidden declared in the photoheader
 
 
 // export default function NavBar() {
@@ -13,7 +14,6 @@ function NavBar() {
   const [open, setOpen] = useState(false);
   const navRef = useRef(null);
 
-  //   const closeMenu = () => setOpen(false);
   // Close menu when clicking outside
   useEffect(() => {
     function handleClickOutside(e) {
@@ -27,7 +27,6 @@ function NavBar() {
 
 
   return (
-    <header>
      <div className="corner-nav" ref={navRef}>
       <button
         className="corner-nav-logo"
@@ -65,7 +64,6 @@ function NavBar() {
         <Link to="/commercial"  onClick={() => setOpen(false)}>Commercial</Link> */}
       </nav>
      </div>
-    </header>
   );
 }
 export default NavBar;
